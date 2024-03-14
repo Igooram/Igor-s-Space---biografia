@@ -35,5 +35,12 @@ document.getElementById('music-btn').addEventListener('click', function() {
     }
 });
 
+```
+## Autor
+
+Este projeto foi desenvolvido por [Igor](https://github.com/igooram).
+
+
+
 
 
