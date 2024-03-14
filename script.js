@@ -17,3 +17,17 @@ botaoSmiling.addEventListener("click", function() {
     alert("Que o seu dia seja cheio de luz e que a felicidade transborde em cada momento. Bom Dia, Boa tarde ou Boa noite!");
 
 });
+
+
+  // Adicionando evento de clique ao botão de música
+  document.getElementById('music-btn').addEventListener('click', function() {
+    // Obtendo o elemento de áudio
+    let audioPlayer = document.getElementById('music-player');
+    // Tocando ou pausando a música com base no estado atual
+    if (audioPlayer.paused) {
+        audioPlayer.play();
+    } else {
+        audioPlayer.pause();
+    }
+});
+
